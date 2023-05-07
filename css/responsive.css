@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+    .signup__form {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .signup__form {
+        width: 30%;
+    }
+}

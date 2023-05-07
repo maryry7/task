@@ -1,0 +1,140 @@
+@import "font.css";
+@import "responsive.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101820;
+    font-family: "Montserrat"; 
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 100px;
+    font-family: "Montserrat";
+    
+}
+.cart_visit {
+   
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+}
+.pic {
+    margin-left: 50px;
+}
+.pic img{
+    width: 210px;
+    height: 210px;
+    border: 3px solid #f8d6ec;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+}
+.logo {
+    margin-left: 150px;
+}
+.logo img {
+    width: 110px;
+    height: 110;
+    position: absolute;
+    top: 55%;
+    z-index: 3;
+}
+.text_user {
+    float: right;
+    text-align: center;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text_header {
+    font-size: 15px;
+    
+    position: relative;
+}
+.shape {
+    width: 120px;
+    height: 200px;
+    background-color: rgb(239, 19, 92);
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 100% 31%);
+    position: absolute;
+    right: 0%;
+}
+.shape2 {
+    width: 130px;
+    height: 150px;
+    background-color: rgb(46, 46, 46);
+    clip-path: polygon(36% 0, 71% 0, 100% 35%, 100% 69%);
+    position: absolute;
+    right: 0%;
+    
+}
+.shape3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(239, 19, 92);
+    clip-path: polygon(0 90%, 0 0, 100% 100%, 10% 100%);
+    position: absolute;
+    
+    bottom: 0%;
+    
+    
+    
+}
+.shape4{
+    width: 210px;
+    height: 210px;
+    background-color: #101820;
+    clip-path: polygon(0 80%, 0 0, 100% 100%, 18% 100%);
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+
+}
+.shape5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(239, 19, 92);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+.data {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+.number {
+    margin-top: 20px;
+}
+hr {
+    margin-top: 5px;
+}
+fa {
+    font-size:20px
+}
+.space {
+    margin-left: 7px;
+}
+.btn1 {
+    border: 1px solid #fff;
+    display:flex;
+    flex-direction: column;
+    top: 85%;
+    background-color: darkblue;
+    padding: 15px;
+    margin: 12px;
+    position: absolute;
+    border-radius: 5px;
+}
